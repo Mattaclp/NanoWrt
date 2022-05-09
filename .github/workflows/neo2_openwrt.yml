@@ -33,7 +33,7 @@ jobs:
   build:
     
     runs-on: ubuntu-18.04
-    if: github.repository == 'vinewx/NanoWrt'
+    if: github.repository == 'Mattaclp/NanoWrt'
     
     steps:
 
