@@ -58,7 +58,7 @@ jobs:
           git clone https://github.com/vinewx/u-boot --depth 1
           git clone https://github.com/vinewx/prebuilts toolchain --depth 1
           git clone https://github.com/vinewx/openwrt_scripts scripts --depth 1
-          git clone -b v19.07.1 https://git.openwrt.org/openwrt/openwrt.git
+          git clone -b openwrt-19.07 https://git.openwrt.org/openwrt/openwrt.git
           ln -s scripts/build.sh build.sh
           ln -s scripts/sd-fuse/out out
 
